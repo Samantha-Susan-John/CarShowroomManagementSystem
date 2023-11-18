@@ -1,0 +1,61 @@
+/* HomePage.css */
+
+.home-page {
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url('../../public/CSM_img2.jpeg');
+    background-size: cover;
+    height: 100vh;
+    /* Add any other styles as needed */
+  }
+  
+  .search-section {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    right: 100px;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Set the text color based on your design */
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+    padding: 50px;
+
+  }
+  
+  #search-icon {
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 200px; /* Adjust the width as needed */
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .results-list {
+    margin-top: 20px;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .search-result {
+    margin-bottom: 10px;
+  }
+  
+  .search-result-css {
+    /* Additional styles for search results if needed */
+  }
+  
+  .search-bar-css {
+    /* Additional styles for search bar if needed */
+  }
+  

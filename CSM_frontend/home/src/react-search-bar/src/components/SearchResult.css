@@ -1,0 +1,59 @@
+.large-text {
+    font-size: 2.1em;
+}
+
+.small-text {
+    font-size: 1.0em; 
+}
+
+.search-result {
+    padding: 20px 20px;
+    line-height: 1.4;
+}
+
+.search-result:hover {
+    background-color: #efefef;
+}
+
+.search-result-image {
+    width: 450px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.float-container {
+    padding: 20px;
+    height: 300px;
+    border: 1px solid rgb(233, 202, 231);
+    border-radius: 3%;
+}
+
+.float-child-left {
+    width: 35%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(233, 202, 231);
+}
+
+.float-child-left .large-text {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 400;
+}
+
+.float-child-left .small-text {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 300;
+}
+
+.float-child-right {
+    width: 35%;
+    float: left;
+    padding: 20px;
+    padding-top: 0px;
+}
